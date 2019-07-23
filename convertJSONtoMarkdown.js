@@ -9,7 +9,7 @@ function convertToMarkdownTable(JSONbody) {
 
     let markdownStr = `**Parameters**\n\n| Field | Required | Description/Type |\n| --- | --- | --- |\n`;
     for (i=0; i < Object.keys(records).length; i++) {
-        markdownStr += `| ${Object.keys(records)[i]} | ?? | ${typeof Object.values(records)[i]} |\n`;
+        markdownStr += `| ${Object.keys(records)[i]} | **?¿?¿?** | ${typeof Object.values(records)[i]} |\n`;
     }
     return markdownStr;
 }
